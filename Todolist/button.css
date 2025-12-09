@@ -15,8 +15,12 @@ button {
   font-size: 16px;
   cursor: pointer;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   background: #6c1740;
   color: white;
   font-family: "Pacifico", cursive;
+}
+
+button:hover {
+  background: #37031c;
 }
