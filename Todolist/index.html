@@ -4,6 +4,7 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="title.css" />
     <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="card.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
@@ -14,9 +15,9 @@
     <header class="header">
       <div class="header-container">
         <nav class="nav">
-          <div class="title pacifico-regular">To Do Lists</div>
+          <div class="title pacifico-regular">To Do List</div>
           <div class="subtitle pacifico-regular">
-            Here you can organize all the things you have to do!
+            Here you can list all the things you have to do!
           </div>
         </nav>
       </div>
@@ -25,9 +26,18 @@
     <section class="hero">
       <div class="container">
         <div class="hero-content">
-          <button id="colorBtn">Add a To Do List</button>
+            <button onclick="addTask()">Add something</button>
+          </a>
         </div>
       </div>
     </section>
+
+    <div class="features-container">
+      <div class="feature-card">
+        <input id="taskInput" type="text" placeholder="Enter a task..." />
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

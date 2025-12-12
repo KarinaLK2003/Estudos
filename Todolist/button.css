@@ -24,3 +24,11 @@ button {
 button:hover {
   background: #37031c;
 }
+
+.deleteBtn {
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
